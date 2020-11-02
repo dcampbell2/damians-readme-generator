@@ -10,6 +10,10 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Testing](#testing)
+  * [Contributors](#contributors)
+  * [License](#license)
+  * [Questions](#questions)
 
   ## Installation
 
@@ -33,8 +37,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-${data.github}
-${data.contact}
+  * https://github.com/${data.github}
+  
+  ${data.contact}
 
 
 `;
